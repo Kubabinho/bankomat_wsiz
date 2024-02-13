@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -58,34 +58,34 @@ namespace Bankomat
                 if (amount <= account[CardNumber].Item2)
                 {
                     account[CardNumber] = new Tuple<string, decimal>(account[CardNumber].Item1, account[CardNumber].Item2 - amount);
-                    Console.WriteLine($"Witaj, karta {CardNumber}. Wypłacam {amount} zł. Stan konta: {account[CardNumber].Item2} zł.");
+                    Console.WriteLine($"karta {CardNumber}. wyplacam {amount} zł. Stan: {account[CardNumber].Item2}");
                 }
                 else
                 {
-                    Console.WriteLine("Niewystarczające środki na koncie.");
+                    Console.WriteLine("nie masz wystarczajaco na konice.");
                 }
             }
             else
             {
-                Console.WriteLine("Nieprawidłowy numer karty lub PIN.");
+                Console.WriteLine("zly numer karty lub pin.");
             }
         }
 
         public void insertCash(string CardNumber, decimal amount)
         {
             account[CardNumber] = new Tuple<string, decimal>(account[CardNumber].Item1, account[CardNumber].Item2 + amount);
-            Console.WriteLine($"Wpłacasz {amount} zł na konto o numerze {CardNumber}. Nowy stan konta: {account[CardNumber].Item2} zł.");
+            Console.WriteLine($"wplacasz {amount} zł na konto {CardNumber}. Nowy stan: {account[CardNumber].Item2}");
         }
 
         public void checkCash(string CardNumber, string pin)
         {
             if (verifyPin(CardNumber, pin))
             {
-                Console.WriteLine($"Stan konta dla karty {CardNumber}: {account[CardNumber].Item2} zł.");
+                Console.WriteLine($"Stan dla {CardNumber}: {account[CardNumber].Item2}");
             }
             else
             {
-                Console.WriteLine("Nieprawidłowy numer karty lub PIN.");
+                Console.WriteLine("zly numer karty lub pin.");
             }
         }
 
@@ -96,17 +96,17 @@ namespace Bankomat
             {
                 writer.WriteLine($"{CardNumber};{pin};{cash}");
             }
-            Console.WriteLine($"Dodano nowe konto o numerze {CardNumber} do bazy danych.");
+            Console.WriteLine($"dodano nowe konto {CardNumber} do bazy");
         }
 
         public void showMenu()
         {
             Console.WriteLine("witamy w bakomacie");
-            Console.WriteLine("1. Wypłata");
-            Console.WriteLine("2. Wpłata");
-            Console.WriteLine("3. Sprawdzenie stanu konta");
-            Console.WriteLine("4. Dodanie nowego konta");
-            Console.WriteLine("5. Wyjście");
+            Console.WriteLine("1. wypłata");
+            Console.WriteLine("2. wpłata");
+            Console.WriteLine("3. sprawdzenie stanu konta");
+            Console.WriteLine("4. dodanie nowego konta");
+            Console.WriteLine("5. wyjście");
         }
     }
 
