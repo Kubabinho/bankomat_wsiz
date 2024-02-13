@@ -1,0 +1,14 @@
+C:\Users\kui34\source\repos\Bankomat\Bankomat\bin\Debug\net8.0\Bankomat.exe
+C:\Users\kui34\source\repos\Bankomat\Bankomat\bin\Debug\net8.0\Bankomat.deps.json
+C:\Users\kui34\source\repos\Bankomat\Bankomat\bin\Debug\net8.0\Bankomat.runtimeconfig.json
+C:\Users\kui34\source\repos\Bankomat\Bankomat\bin\Debug\net8.0\Bankomat.dll
+C:\Users\kui34\source\repos\Bankomat\Bankomat\bin\Debug\net8.0\Bankomat.pdb
+C:\Users\kui34\source\repos\Bankomat\Bankomat\obj\Debug\net8.0\Bankomat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kui34\source\repos\Bankomat\Bankomat\obj\Debug\net8.0\Bankomat.AssemblyInfoInputs.cache
+C:\Users\kui34\source\repos\Bankomat\Bankomat\obj\Debug\net8.0\Bankomat.AssemblyInfo.cs
+C:\Users\kui34\source\repos\Bankomat\Bankomat\obj\Debug\net8.0\Bankomat.csproj.CoreCompileInputs.cache
+C:\Users\kui34\source\repos\Bankomat\Bankomat\obj\Debug\net8.0\Bankomat.dll
+C:\Users\kui34\source\repos\Bankomat\Bankomat\obj\Debug\net8.0\refint\Bankomat.dll
+C:\Users\kui34\source\repos\Bankomat\Bankomat\obj\Debug\net8.0\Bankomat.pdb
+C:\Users\kui34\source\repos\Bankomat\Bankomat\obj\Debug\net8.0\Bankomat.genruntimeconfig.cache
+C:\Users\kui34\source\repos\Bankomat\Bankomat\obj\Debug\net8.0\ref\Bankomat.dll
